@@ -1,11 +1,14 @@
+/* eslint-disable prettier/prettier */
 import { View, Text } from 'react-native'
 import React from 'react'
-import ProfilePage from './components/profilePage'
+import Counter from './components/Counter'
+import BMI from './components/BMI'
 
 export default function App() {
   return (
     <View>
-      <ProfilePage />
+      <Counter />
+      <BMI />
     </View>
   )
 }
